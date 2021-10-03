@@ -67,7 +67,12 @@ class _AzkarScreenState extends State<AzkarScreen> {
                 value: 'استغفر الله',
               ),
             ];
-          })
+          }),
+          IconButton(onPressed : () => Navigator.pushNamed(context, '/about_screen',
+          arguments: {
+            'message' : 'مشروع ايلانسر كرم عمر احمد '
+          }),
+            icon: const Icon(Icons.info),),
         ],
       ),
       body: Container(

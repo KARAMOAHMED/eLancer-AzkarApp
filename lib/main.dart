@@ -1,3 +1,4 @@
+import 'package:azkar/screens/about_screen.dart';
 import 'package:azkar/screens/azkar_screen.dart';
 import 'package:azkar/screens/launch_screen.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/launch_screen': (context) => LaunchScreen(),
         '/azkar_screen': (context) => AzkarScreen(),
+        '/about_screen': (context) => AboutScreen(),
+
 
       },
     );

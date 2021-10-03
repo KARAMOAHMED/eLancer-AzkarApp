@@ -33,7 +33,7 @@ class _LaunchScreenState extends State<LaunchScreen> {
             ]
           )
         ),
-         child:  const Text(" كرم عمر احمد ",
+         child:  const Text(" تطبيق مسبحتي  ",
         style: TextStyle(
         fontFamily: "Montserrat",
             fontSize: 24,
